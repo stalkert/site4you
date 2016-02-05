@@ -1,7 +1,7 @@
 (function(){
 	var app = angular.module("site4you",[]);
 	app.controller('HeadMenu',	function(){
-		this.itemMenu = y;
+		this.itemMenu = menu;
 	});
-		var y= { menu1:'Главная'};
-})();
+		var menu = [{menuName:'ГЛАВНАЯ'},{menuName:'ПОРТФОЛИО'},{menuName:'КОНТАКТЫ'}];
+})();		

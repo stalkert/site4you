@@ -14,10 +14,9 @@
 	<div id="wrapper-head">
 		<div class="container" id="head-menu" ng-controller="HeadMenu as menu">
 			<div class="row ">
-				<ul class="nav navbar-nav">
-							<li><a href="#">{{menu.itemMenu.menu1}}</a></li>
-							<li><a href="#">ПОРТФОЛИО</a></li>
-							<li><a href="#">КОНТАКТЫ</a></li>
+				<ul class="nav navbar-nav" >
+							<li ng-repeat="headmenu in menu.itemMenu"><a href="#">{{headmenu.menuName}}</a></li>
+							
 				</ul>
 					
 				
