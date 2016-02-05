@@ -7,37 +7,41 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/jquery.bxslider.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script  src="js/angular.min.js"></script>
-    <script src="js/app.js"></script>	
+    
 
 </head>
 <body>
 	<div id="wrapper-head">
-		<div class="container" id="head-menu">
-			<div class="row">
-				
-					<ul class="nav navbar-nav">
-						<li><a href="" >ГЛАВНАЯ</a></li>
-						<li><a href="">ПОРТФОЛИО</a></li>
-						<li><a href="">КОНТАКТЫ</a></li>
-					</ul>
+		<div class="container" id="head-menu" ng-controller="HeadMenu as menu">
+			<div class="row ">
+				<ul class="nav navbar-nav">
+							<li><a href="#">{{menu.itemMenu.menu1}}</a></li>
+							<li><a href="#">ПОРТФОЛИО</a></li>
+							<li><a href="#">КОНТАКТЫ</a></li>
+				</ul>
+					
 				
 			</div>
 		</div>
 		<div class="row line">
 			
 		</div>
-		<div class="container">
-			<div class="row">
-				<div id="square">Текст</div>
-			</div>
+		<div class="wrapper-orange">
+			<div class="left-block"></div>
+			<div class="left-shadow"></div>
+			
+				<div class="row">
+					<div class="col-md-12">Текст</div>
+				</div>
+			
 		</div>
 	</div>
 	
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/jquery.bxslider.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
+    <script  src="js/angular.min.js"></script>
+    <script src="js/app.js"></script>	
 
 </body>
 </html>

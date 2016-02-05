@@ -1,6 +1,7 @@
 (function(){
 	var app = angular.module("site4you",[]);
-	app.controller('start',	function(){
-		alert("Ангуляр работает!");
+	app.controller('HeadMenu',	function(){
+		this.itemMenu = y;
 	});
+		var y= { menu1:'Главная'};
 })();

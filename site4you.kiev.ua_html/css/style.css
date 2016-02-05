@@ -19,25 +19,64 @@ body {
 		@include rotate(90);
 	}
 }*/
-/* line 44, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 #wrapper-head {
   background: url(../images/fon3.png) repeat-y;
   background-size: 100%;
   height: 8000px;
 }
 
-/* line 49, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 #head-menu {
   height: 80px;
 }
 
-/* line 53, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .line {
   border-bottom: 1px solid #fff;
 }
 
-/* line 59, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
+.navbar-nav {
+  float: none;
+  text-align: center;
+}
+/* line 61, ../sass/style.scss */
+.navbar-nav li {
+  float: none;
+  display: inline-block;
+}
+/* line 64, ../sass/style.scss */
 .navbar-nav li a {
   font-size: 1.2em;
   font-weight: bold;
+  color: #000;
+}
+
+/* line 69, ../sass/style.scss */
+.wrapper-orange {
+  background-color: #fc5536;
+  width: 100%;
+  height: 371px;
+  margin-top: 200px;
+  position: relative;
+}
+/* line 75, ../sass/style.scss */
+.wrapper-orange .left-block {
+  background-color: #fc5536;
+  margin-top: -20px;
+  width: 10%;
+  height: 470px;
+  position: absolute;
+  left: 0;
+  top: -30px;
+}
+/* line 84, ../sass/style.scss */
+.wrapper-orange .left-shadow {
+  background-image: url(../images/left-shadow.png);
+  width: 101px;
+  height: 470px;
+  position: absolute;
+  left: 10%;
+  top: -50px;
 }
